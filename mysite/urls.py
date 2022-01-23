@@ -1,4 +1,4 @@
-"""bookmark URL Configuration
+"""mysite URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -22,6 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     #class-based views
-    path('bookmark/', BookmarkLV.as_view(), name = 'index'),
-    path('bookmark/<int:pk>/', BookmarkDV.as_view(), name = 'detail'),
+    path('mysite/', BookmarkLV.as_view(), name = 'index'),
+    path('mysite/<int:pk>/', BookmarkDV.as_view(), name = 'detail'),
 ]
