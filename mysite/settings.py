@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bookmark_service.apps.BookmarkServiceConfig',
+    'bookmark.apps.BookmarkServiceConfig',
     'blog.apps.BlogConfig',
 ]
 
